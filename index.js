@@ -26,7 +26,7 @@ var generalChannel = client.channels.get ("786410076863856647")
 const attachment = new Discord.Attachment(https://tzaphiel.files.wordpress.com/2013/01/fire-breathing-dragon-2560x1600.jpg)
     generalChannel.send(attachment)
 
-client.login ('Nzg4ODg0OTk2OTc4NzY5OTQw.X9qAaA.ISRuH0LCTqgE4PSIJYf8RAtFAo0')
+
 client.on ('message', message => {
     console.log(message.content);
 }))
